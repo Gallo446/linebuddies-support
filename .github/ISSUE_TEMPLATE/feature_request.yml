@@ -1,0 +1,32 @@
+name: "💡 Feature Request"
+description: "Suggest an idea for the LineBuddies iOS app"
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing your idea! We use feature requests to plan future updates.
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Is your feature request related to a problem?"
+      description: "Please describe the problem you’re facing (if any)."
+      placeholder: "Example: It’s hard to track my rehearsal progress over multiple sessions."
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Describe the solution you’d like"
+      description: "Be specific about what you’d like the app to do."
+      placeholder: "Example: Add a rehearsal history page with session stats."
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Have you considered any alternatives?"
+      description: "Other ways you currently work around this problem."
+  - type: textarea
+    id: context
+    attributes:
+      label: "Additional Context"
+      description: "Anything else we should know (mockups, links, similar apps)?"
