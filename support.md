@@ -8,7 +8,7 @@ We want to make sure you get help quickly and easily.
 ## 🐛 Reporting a Bug
 If you encounter a problem:
 1. Check [Discussions](../../discussions) to see if someone else reported it.
-2. If not, open a [new issue](../../issues/new?template=bug_report.yml) with:
+2. If not, open a [new issue](https://github.com/Gallo446/linebuddies-support/issues/new?template=bug_report.yml) with:
    - Your device model (e.g. iPhone 14)
    - iOS version
    - LineBuddies app version
@@ -19,7 +19,7 @@ If you encounter a problem:
 
 ## 💡 Requesting a Feature
 Have an idea that would make LineBuddies better?  
-Please post it in [Discussions → Feature Requests](../../discussions/categories/feature-requests).
+Please post it in [Feature Requests](https://github.com/Gallo446/linebuddies-support/discussions/categories/feature-requests)
 
 ---
 
