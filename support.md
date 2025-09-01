@@ -31,7 +31,7 @@ General “how do I…” questions belong in [Discussions → Q&A](../../discus
 ## 🚨 Urgent Issues
 If you’re experiencing a crash or app-breaking problem that blocks rehearsal or recording, please:
 - File a bug report **and**
-- Email us at **support@linebuddies.app** (optional, faster response)
+- Email us at **info@linebuddies.app** (optional, faster response)
 
 ---
 
