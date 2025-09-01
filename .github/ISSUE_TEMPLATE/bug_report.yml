@@ -1,0 +1,68 @@
+name: "🐛 Bug Report"
+description: "Report something that isn’t working in the LineBuddies iOS app"
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please provide as much detail as possible.
+  - type: input
+    id: device
+    attributes:
+      label: "Device Model"
+      description: "Example: iPhone 14 Pro"
+      placeholder: "iPhone model"
+    validations:
+      required: true
+  - type: input
+    id: ios-version
+    attributes:
+      label: "iOS Version"
+      description: "Example: iOS 17.5"
+      placeholder: "Your iOS version"
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: "LineBuddies App Version"
+      description: "Check in Settings → About or App Store version"
+      placeholder: "0.2.0"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to Reproduce"
+      description: "What exactly did you do before the bug appeared?"
+      placeholder: |
+        1. Open app
+        2. Upload script
+        3. Start rehearsal
+        4. Crash occurs
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected Behavior"
+      description: "What did you expect to happen?"
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual Behavior"
+      description: "What actually happened instead?"
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots / Screen Recordings"
+      description: "Drag and drop images or videos here"
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Additional Context"
+      description: "Anything else we should know?"
